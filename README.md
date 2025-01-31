@@ -1,3 +1,4 @@
 # Bitácora
-Nombre del estudiante:  
-Id.:
+Nombre del estudiante:  Maria Clara Suárez Vanegas
+Id.:560821
+
