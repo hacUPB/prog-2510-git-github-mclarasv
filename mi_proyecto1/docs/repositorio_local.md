@@ -1,1 +1,13 @@
-Para crear un repositorio local se debe primero configurar el nombre y el email en el computador usando "git config --global user.name" y "git config --global user.email". luego se crea un directorio y un archivo como se explico en uso_consola y se inicia el repositorio con el comando "git init". Si la rama esta configurada en "master" hay que cambiarla a "main" con el comando "git branch -m master main". Luego creas un file normal con el comando "touch" al cual le puedes agregar texto y le puedes hacer traking con el comando "git add". Finalmente para subirlo al repositorio usas el comando "git commit -m" y si queremos le podemos agregar un nombre o una descripcion al comando entre comillas. Para consultar el estado del repositorio, usamos "git status" y aqui se nos mostrará en rojo los achivos editados que no estan en el repositorio y que se nos sujiere subir, y en verde los archivos que estan en traking, pero s no se muestra nada es porque todos los archivos estan cargados en el repositorio. Por ultimo con el comando "git log" podremos verificar todos los commits que hicimos.
+# Creación de un repositorio local
+ configurar el nombre y el email en el computador usando `git config --global user.name` y `git config --global user.email`.
+
+![lista de configuración](../images/config%20list.png)
+
+  luego se crea un directorio y un archivo como se explico en uso_consola y se inicia el repositorio con el comando `git init`. Si la rama esta configurada en `master` hay que cambiarla a `main` con el comando `git branch -m master main`.
+ Luego, agrega los archivos al área de preparación con `git add`.
+
+ ![imagen del git add](../images/git%20add.png)
+
+ finalmente realiza el primer commit con `git commit -m descripcion_commit`.
+
+ ![lista de configuración](../images/git%20commit.png)
